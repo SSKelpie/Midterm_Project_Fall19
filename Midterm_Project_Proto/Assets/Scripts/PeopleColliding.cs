@@ -16,19 +16,19 @@ public class PeopleColliding : MonoBehaviour
     private void OnCollisionStay(Collision collision)
     {
         Debug.Log(collision.gameObject.tag);
-        if (collision.gameObject.tag == "creature1" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "creature1" && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(("everytime we touch"));
-            DA.FirstBatch();
+            DA.FirstSnakeBatch();
         }
 
-        if (collision.gameObject.tag == "creature2" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "creature2" && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(("I get this feeling"));
 
         }
 
-        if (collision.gameObject.tag == "creature3" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "creature3" && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(("I swear I could fly"));
 
