@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class PeopleColliding : MonoBehaviour
 {
@@ -18,6 +18,7 @@ public class PeopleColliding : MonoBehaviour
         Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag == "creature1" && Input.GetKeyDown(KeyCode.Space))
         {
+            
             Debug.Log(("everytime we touch"));
             DA.FirstSnakeBatch();
         }
@@ -25,12 +26,13 @@ public class PeopleColliding : MonoBehaviour
         if (collision.gameObject.tag == "creature2" && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(("I get this feeling"));
-
+            DA.FirstSkullBatch();
         }
 
         if (collision.gameObject.tag == "creature3" && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(("I swear I could fly"));
+            
 
         }
     }

@@ -34,42 +34,42 @@ public class DialogueStuff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    {
-        if (istalking == true && Input.GetKeyDown(KeyCode.Space))
-        {
-            if (buttonpressed == true)
-            {
-                if (istxtin == false)
-                {
-                    currentline++;
-                    if (currentline >= txtlines.Length)
-                    {
-                        _answerstate++;
-                        _storypoints++;
-                        istalking = false;
-                    }
-                    else
-                    {
-                        StartCoroutine(typetxt(txtlines[currentline]));
-                    
-                    }
-                }
-                else if (istxtin == true && canceltxtin == false)
-                {
-                    canceltxtin = true;
-                    buttonpressed = false;
-                }
-            }
-            else
-            {
-                buttonpressed = true;
-            }
-        }
-        
-       
 
-    }
+        {
+            if (istalking == true && Input.GetKeyDown(KeyCode.Space))
+            {
+                if (buttonpressed == true)
+                {
+                    if (istxtin == false)
+                    {
+                        currentline++;
+                        if (currentline >= txtlines.Length)
+                        {
+                           // _answerstate++;
+                          //  _storypoints++;
+                            istalking = false;
+                        }
+                        else
+                        {
+                            StartCoroutine(typetxt(txtlines[currentline]));
+
+                        }
+                    }
+                    else if (istxtin == true && canceltxtin == false)
+                    {
+                        canceltxtin = true;
+                        buttonpressed = false;
+                    }
+                }
+                else
+                {
+                    buttonpressed = true;
+                }
+            }
+
+
+
+        }
     }
 
     private IEnumerator typetxt(string silly)
@@ -90,13 +90,30 @@ public class DialogueStuff : MonoBehaviour
         istxtin = false;
         canceltxtin = false;
     }
-    
+
 
     public void FirstSnakeBatch()
     {
         if (_answerstate == 0)
         {
             istalking = true;
+            
+            
+            speech.text = txtlines[currentline];
+            
+         
+                _answerstate++;
+                _storypoints++;
+        }
+    }
+
+    public void FirstSkullBatch()
+    {
+        if (_answerstate == 1)
+        {
+            istalking = true;
+            
+
             /*
             speech.text = txtlines[currentline];
             currentline++;
@@ -111,5 +128,29 @@ public class DialogueStuff : MonoBehaviour
 
 
         }
-}
-}
+    }
+    /*
+    public void FirstStickBatch()
+    {
+        if (_answerstate == 1)
+        {
+            istalking = true;
+            
+            /*
+             
+            speech.text = txtlines[currentline];
+            currentline++;
+            
+            if (currentline == txtlines.Length)
+            {
+               Debug.Log("FUCK YOUUUUUU");
+                _answerstate++;
+                _storypoints++;
+            }*/
+            // speech.text = "Oh hello here! Welcome to the Sssssaudade Cafe!";
+
+
+        }
+    
+
+

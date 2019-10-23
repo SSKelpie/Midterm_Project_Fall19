@@ -5,11 +5,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraRotator.cs" t="Include" />
           <e p="DialogueStuff.cs" t="Include" />
           <e p="PeopleColliding.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="restart.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
-          <e p="testing_dialogue.txt" t="Include" />
+          <e p="StartGame.cs" t="Include" />
           <e p="WinCon.cs" t="Include" />
         </e>
         <e p="Starfield Skybox" t="Include">
@@ -43,9 +45,14 @@
               <e p="TMPro_Surface.cginc" t="Include" />
             </e>
           </e>
-          <e p="Sprites" t="Include">
-            <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
+        </e>
+        <e p="TXT" t="Include">
+          <e p="Skull_1.txt" t="Include" />
+          <e p="Skull_2.txt" t="Include" />
+          <e p="Snake_1.txt" t="Include" />
+          <e p="Snake_2.txt" t="Include" />
+          <e p="Stick_1.txt" t="Include" />
+          <e p="Stick_2.txt" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
