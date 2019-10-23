@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraRotator.cs" t="Include" />
           <e p="DialogueStuff.cs" t="Include" />
+          <e p="Gtgame.cs" t="Include" />
           <e p="PeopleColliding.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="restart.cs" t="Include" />
