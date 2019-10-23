@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinCon : MonoBehaviour {
 
@@ -8,6 +9,7 @@ public class WinCon : MonoBehaviour {
 
     public DialogueStuff number;
     public int score;
+    public int SceneNum = 1;
     void Start () 
     {
         FindObjectOfType<DialogueStuff>();
@@ -18,8 +20,13 @@ public class WinCon : MonoBehaviour {
     void Update () {
         if (score == 1)
         {
-            GameObject.Find("WinGame").GetComponent<SceneManger>().ChangeScene();
+            ChangeScene();
         }
 
+    }
+    
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene(SceneNum);
     }
 }

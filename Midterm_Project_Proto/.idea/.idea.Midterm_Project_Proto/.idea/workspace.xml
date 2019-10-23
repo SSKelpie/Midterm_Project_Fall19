@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b68c5e3-c2ca-499d-adef-cc605a7e1a6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Midterm_Project_Proto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/stick_friend.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Blender Assets/stick_friend.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm_Project_Proto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm_Project_Proto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/ghost you.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/ghost you.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CafeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CafeScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InstructScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InstructScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinCon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinCon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/grad tile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/grad tile.jpg.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +19,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <marker date="1571865167966" expanded="true" signature="153:491" ph="{...}" />
+                <marker date="1571865167966" expanded="true" signature="238:258" ph="{...}" />
+                <marker date="1571865167966" expanded="true" signature="316:404" ph="{...}" />
+                <marker date="1571865167966" expanded="true" signature="363:398" ph="{...}" />
+                <marker date="1571865167966" expanded="true" signature="435:489" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WinCon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#113#0" expanded="true" />
+                <marker date="1571865687871" expanded="true" signature="151:615" ph="{...}" />
+                <marker date="1571865687871" expanded="true" signature="292:384" ph="{...}" />
+                <marker date="1571865687871" expanded="true" signature="445:524" ph="{...}" />
+                <marker date="1571865687871" expanded="true" signature="470:517" ph="{...}" />
+                <marker date="1571865687871" expanded="true" signature="559:613" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinCon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gtgame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Gtgame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WinCon.cs" />
       </list>
     </option>
   </component>
@@ -43,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -62,7 +105,6 @@
         <option name="show-project-names" value="true" />
       </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -112,11 +154,13 @@
       <workItem from="1571857784509" duration="2000" />
       <workItem from="1571857838576" duration="12000" />
       <workItem from="1571857906147" duration="83000" />
+      <workItem from="1571865102424" duration="618000" />
+      <workItem from="1571865746764" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97000" />
+    <option name="totallyTimeSpent" value="727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -135,7 +179,6 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -150,6 +193,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -174,20 +218,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1571823731376" expanded="false" signature="6:113" ph="..." />
-            <marker date="1571823731376" expanded="true" signature="153:416" ph="{...}" />
-            <marker date="1571823731376" expanded="true" signature="238:258" ph="{...}" />
-            <marker date="1571823731376" expanded="true" signature="316:329" ph="{...}" />
-            <marker date="1571823731376" expanded="true" signature="360:414" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gtgame.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -198,6 +228,52 @@
             <marker date="1571857982943" expanded="true" signature="235:255" ph="{...}" />
             <marker date="1571857982943" expanded="true" signature="313:326" ph="{...}" />
             <marker date="1571857982943" expanded="true" signature="357:411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <marker date="1570121378505" expanded="false" signature="6:78" ph="..." />
+            <marker date="1570121378505" expanded="true" signature="125:1033" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="253:274" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="332:1029" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="410:513" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="587:689" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="765:856" ph="{...}" />
+            <marker date="1570121378505" expanded="true" signature="931:1023" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <marker date="1571865167966" expanded="true" signature="153:491" ph="{...}" />
+            <marker date="1571865167966" expanded="true" signature="238:258" ph="{...}" />
+            <marker date="1571865167966" expanded="true" signature="316:404" ph="{...}" />
+            <marker date="1571865167966" expanded="true" signature="363:398" ph="{...}" />
+            <marker date="1571865167966" expanded="true" signature="435:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WinCon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#113#0" expanded="true" />
+            <marker date="1571865687871" expanded="true" signature="151:615" ph="{...}" />
+            <marker date="1571865687871" expanded="true" signature="292:384" ph="{...}" />
+            <marker date="1571865687871" expanded="true" signature="445:524" ph="{...}" />
+            <marker date="1571865687871" expanded="true" signature="470:517" ph="{...}" />
+            <marker date="1571865687871" expanded="true" signature="559:613" ph="{...}" />
           </folding>
         </state>
       </provider>
