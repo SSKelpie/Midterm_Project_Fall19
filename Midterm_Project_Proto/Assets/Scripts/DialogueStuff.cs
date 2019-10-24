@@ -16,12 +16,13 @@ public class DialogueStuff : MonoBehaviour
     public TextAsset txtfile;
     public string[] txtlines;
     public int currentline;
-    public GameObject txtbox;
+    //public GameObject txtbox;
     public float txtsped;
     public bool istxtin;
     public bool canceltxtin;
     public bool buttonpressed;
     public bool istalking;
+    public GameObject txtbox;
 
 
 
@@ -29,6 +30,8 @@ public class DialogueStuff : MonoBehaviour
     void Start()
     {
         txtlines = txtfile.text.Split('\n');
+        //txtbox = Instantiate(txtbox, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity, transform );
+       // txtbox.transform.parent = gameObject.transform;
     }
 
     // Update is called once per frame
@@ -45,8 +48,7 @@ public class DialogueStuff : MonoBehaviour
                         currentline++;
                         if (currentline >= txtlines.Length)
                         {
-                           // _answerstate++;
-                          //  _storypoints++;
+                           
                             istalking = false;
                         }
                         else
@@ -97,7 +99,7 @@ public class DialogueStuff : MonoBehaviour
         if (_answerstate == 0)
         {
             istalking = true;
-            
+            txtbox.SetActive(true);
             
             speech.text = txtlines[currentline];
             
@@ -109,6 +111,7 @@ public class DialogueStuff : MonoBehaviour
 
     public void FirstSkullBatch()
     {
+        //Instantiate(txtbox);
         if (_answerstate == 1)
         {
             istalking = true;

@@ -6,34 +6,38 @@ using UnityEngine.UI;
 public class PeopleColliding : MonoBehaviour
 {
     public DialogueStuff DA;
+   
+
+
     // Start is called before the first frame update
     void Start()
     {
         DA = FindObjectOfType<DialogueStuff>();
-    }
+        
 
-    // Update is called once per frame
-    private void OnCollisionStay(Collision collision)
-    {
-        Debug.Log(collision.gameObject.tag);
-        if (collision.gameObject.tag == "creature1" && Input.GetKeyDown(KeyCode.Space))
+        // Update is called once per frame
+        void OnCollisionStay(Collision collision)
         {
-            
-            Debug.Log(("everytime we touch"));
-            DA.FirstSnakeBatch();
-        }
+            Debug.Log(collision.gameObject.tag);
+            if (collision.gameObject.tag == "creature1" && Input.GetKeyDown(KeyCode.Space))
+            {
 
-        if (collision.gameObject.tag == "creature2" && Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log(("I get this feeling"));
-            DA.FirstSkullBatch();
-        }
+                Debug.Log(("everytime we touch"));
+                DA.FirstSnakeBatch();
+            }
 
-        if (collision.gameObject.tag == "creature3" && Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log(("I swear I could fly"));
-            
+            if (collision.gameObject.tag == "creature2" && Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log(("I get this feeling"));
+                DA.FirstSkullBatch();
+            }
 
+            if (collision.gameObject.tag == "creature3" && Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log(("I swear I could fly"));
+
+
+            }
         }
     }
 }

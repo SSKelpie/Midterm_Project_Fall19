@@ -1,14 +1,8 @@
 fileFormatVersion: 2
-guid: 244fe751636ce4adfa470f63f0c64b63
+guid: b63f8dcde168d46d9a9f5dfb0f2f7ee4
 ModelImporter:
   serializedVersion: 26
-  internalIDToNameTable:
-  - first:
-      74: 7971150142141146579
-    second: Sphere.001|Sphere.001Action.003
-  - first:
-      74: 9219918448071985049
-    second: Sphere.001|SurfPatchAction.002
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -93,7 +87,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
