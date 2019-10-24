@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6421b6527cf4f4dd69c9af0ebd5e5f04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneNum: 2
+  SceneNum: 0
 --- !u!4 &1987767273
 Transform:
   m_ObjectHideFlags: 0

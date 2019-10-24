@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8b68c5e3-c2ca-499d-adef-cc605a7e1a6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm_Project_Proto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm_Project_Proto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/snake_friend ton.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/snake_friend ton.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/snake_friend.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Assets/snake_friend.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Glass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CafeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CafeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InstructScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InstructScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/WinScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WinScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueStuff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueStuff.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PeopleColliding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PeopleColliding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/tile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/tile.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PeopleColliding.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <marker date="1571882275127" expanded="false" signature="6:100" ph="..." />
                 <marker date="1571882275127" expanded="true" signature="146:1082" ph="{...}" />
@@ -214,12 +207,12 @@
       <workItem from="1571857906147" duration="83000" />
       <workItem from="1571865102424" duration="618000" />
       <workItem from="1571865746764" duration="12000" />
-      <workItem from="1571866083868" duration="2917000" />
+      <workItem from="1571866083868" duration="3223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3644000" />
+    <option name="totallyTimeSpent" value="3950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +225,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1349" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -342,7 +334,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PeopleColliding.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <marker date="1571882275127" expanded="false" signature="6:100" ph="..." />
             <marker date="1571882275127" expanded="true" signature="146:1082" ph="{...}" />
