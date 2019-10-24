@@ -7,6 +7,7 @@ public class PeopleColliding : MonoBehaviour
 {
     public DialogueStuff DA;
     public bool answerstate = false;
+    public GameObject wall;
    
 
 
@@ -14,6 +15,7 @@ public class PeopleColliding : MonoBehaviour
     void Start()
     {
         DA = FindObjectOfType<DialogueStuff>();
+        wall = GameObject.FindGameObjectWithTag("Walls");
 
     }
 
@@ -48,7 +50,7 @@ public class PeopleColliding : MonoBehaviour
                     Debug.Log(("I get this feeling"));
                     DA.SwitchTxt(DA.skulltxtfile1);
                 }
-                if(answerstate == false && DA._answerstate == 3)
+                if(answerstate == false && DA._answerstate >= 3)
                 {
                    DA.SwitchTxt(DA.skulltxtfile2);
                    answerstate = true;
@@ -65,13 +67,18 @@ public class PeopleColliding : MonoBehaviour
                 Debug.Log(("I swear I could fly"));
                 DA.SwitchTxt(DA.sticktxtfile1);
             }
-                if(answerstate == false && DA._answerstate == 4)
+                if(answerstate == false && DA._answerstate >= 4)
                 {
                     DA.SwitchTxt(DA.sticktxtfile2);
                     answerstate = true;
                 }
 
-            } 
+            }
+
+            /*if (collision.gameObject.tag == "walls")
+            {
+                transform.position.x = wall.transform.position.x;
+            }*/
         }
     }
 

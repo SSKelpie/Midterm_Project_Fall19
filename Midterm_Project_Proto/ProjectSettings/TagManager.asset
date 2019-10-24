@@ -9,6 +9,7 @@ TagManager:
   - creature3
   - head
   - fade out
+  - walls
   layers:
   - Default
   - TransparentFX
