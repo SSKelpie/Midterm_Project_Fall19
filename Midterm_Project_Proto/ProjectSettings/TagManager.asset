@@ -8,6 +8,7 @@ TagManager:
   - creature2
   - creature3
   - head
+  - fade out
   layers:
   - Default
   - TransparentFX

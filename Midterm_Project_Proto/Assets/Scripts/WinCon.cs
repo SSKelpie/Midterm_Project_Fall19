@@ -6,20 +6,21 @@ using UnityEngine.SceneManagement;
 public class WinCon : MonoBehaviour {
 
     // Use this for initialization
-
+    private Animator anim;
     public DialogueStuff number;
-    public int score;
     public int SceneNum = 1;
     void Start () 
     {
-        FindObjectOfType<DialogueStuff>();
-        score = number._answerstate;
+        anim = gameObject.GetComponent<Animator>();
+        number = FindObjectOfType<DialogueStuff>();
+        
     }
 	
     // Update is called once per frame
     void Update () {
-        if (score == 1)
+        if (number._answerstate == 6)
         {
+            anim.Play("fade OUT");
             ChangeScene();
         }
 

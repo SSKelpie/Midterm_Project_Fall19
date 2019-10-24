@@ -12,10 +12,17 @@ public class DialogueStuff : MonoBehaviour
 {
     public TextMeshProUGUI speech;
     public int _answerstate = 0;
-    public int _storypoints = 0;
-    public TextAsset txtfile;
+    public TextAsset snaketxtfile1;
+    public TextAsset skulltxtfile1;
+    public TextAsset sticktxtfile1;
+    public TextAsset snaketxtfile2;
+    public TextAsset skulltxtfile2;
+    public TextAsset sticktxtfile2;
+
     public string[] txtlines;
+
     public int currentline;
+
     //public GameObject txtbox;
     public float txtsped;
     public bool istxtin;
@@ -29,9 +36,9 @@ public class DialogueStuff : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        txtlines = txtfile.text.Split('\n');
+        SwitchTxt(snaketxtfile1);
         //txtbox = Instantiate(txtbox, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity, transform );
-       // txtbox.transform.parent = gameObject.transform;
+        // txtbox.transform.parent = gameObject.transform;
     }
 
     // Update is called once per frame
@@ -41,6 +48,8 @@ public class DialogueStuff : MonoBehaviour
         {
             if (istalking == true && Input.GetKeyDown(KeyCode.Space))
             {
+                
+                
                 if (buttonpressed == true)
                 {
                     if (istxtin == false)
@@ -48,8 +57,10 @@ public class DialogueStuff : MonoBehaviour
                         currentline++;
                         if (currentline >= txtlines.Length)
                         {
-                           
+                            txtbox.SetActive(false);
+                            buttonpressed = false;
                             istalking = false;
+                            _answerstate++;
                         }
                         else
                         {
@@ -66,9 +77,10 @@ public class DialogueStuff : MonoBehaviour
                 else
                 {
                     buttonpressed = true;
+
                 }
             }
-
+         
 
 
         }
@@ -91,23 +103,26 @@ public class DialogueStuff : MonoBehaviour
         speech.maxVisibleCharacters = speech.text.Length;
         istxtin = false;
         canceltxtin = false;
+
+
     }
 
 
-    public void FirstSnakeBatch()
+    /*public void FirstSnakeBatch()
     {
         if (_answerstate == 0)
         {
             istalking = true;
             txtbox.SetActive(true);
-            
+
             speech.text = txtlines[currentline];
-            
-         
-                _answerstate++;
-                _storypoints++;
+
+
+            _answerstate++;
+            _storypoints++;
         }
     }
+    
 
     public void FirstSkullBatch()
     {
@@ -115,45 +130,27 @@ public class DialogueStuff : MonoBehaviour
         if (_answerstate == 1)
         {
             istalking = true;
-            
 
-            /*
-            speech.text = txtlines[currentline];
-            currentline++;
-            
-            if (currentline == txtlines.Length)
-            {
-               Debug.Log("FUCK YOUUUUUU");
-                _answerstate++;
-                _storypoints++;
-            }*/
-            // speech.text = "Oh hello here! Welcome to the Sssssaudade Cafe!";
 
 
         }
     }
-    /*
-    public void FirstStickBatch()
+*/
+    public void SwitchTxt(TextAsset myfile)
     {
-        if (_answerstate == 1)
-        {
-            istalking = true;
-            
-            /*
-             
-            speech.text = txtlines[currentline];
-            currentline++;
-            
-            if (currentline == txtlines.Length)
-            {
-               Debug.Log("FUCK YOUUUUUU");
-                _answerstate++;
-                _storypoints++;
-            }*/
-            // speech.text = "Oh hello here! Welcome to the Sssssaudade Cafe!";
+        txtbox.SetActive(true);
+        currentline = 0;
+        txtlines = myfile.text.Split('\n');
+        
+        istalking = true;
+       
+
+        speech.text = txtlines[currentline];
 
 
-        }
+        
+    }
+}
     
 
 
